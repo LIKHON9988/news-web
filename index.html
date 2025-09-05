@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ------------------------icon cdn-------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- -----------------------------font style------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ---------------daisy plus tailwind cdn--------- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- --------------style----------- -->
+    <style>
+      * {
+        font-family: "Noto Serif Bengali", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-red-600">
+      <div class="w-10/12 mx-auto py-2">
+        <div
+          class="navbar text-neutral-content flex justify-between items-center"
+        >
+          <div>
+            <p class="text-center">
+              <span
+                class="text-red-600 bg-white text-[20px] md:text-3xl px-1 md:px-2 font-bold"
+                >B</span
+              >
+              <span
+                class="text-red-600 bg-white text-[20px] md:text-3xl px-1 md:px-2 font-bold ml-0 md:ml-1"
+                >B</span
+              >
+              <span
+                class="text-red-600 bg-white text-[20px] md:text-3xl px-1 md:px-2 font-bold ml-0 md:ml-1"
+                >C</span
+              ><span class="text-[14px] md:text-2xl font-semibold p-1"
+                >NEWS</span
+              >
+              <span class="text-[14px] md:text-2xl font-bold">বাংলা</span>
+            </p>
+          </div>
+          <button class="btn btn-neutral btn-dash text-white h-8">
+            Sign in
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav class="border-b border-gray-300">
+      <div>
+        <ul
+          id="category-container"
+          class="w-10/12 mx-auto flex gap-10 p-2 text-[20px] text-wrap"
+        >
+          <!-- <li class="hover:border-b-3 border-red-600 cursor-pointer">
+            মূলপাতা
+          </li>
+          <li class="hover:border-b-3 border-red-600 cursor-pointer">
+            রাজনীতি
+          </li>
+          <li class="hover:border-b-3 border-red-600 cursor-pointer">বিশ্ব</li> -->
+        </ul>
+      </div>
+    </nav>
+    <script src="index.js"></script>
+  </body>
+</html>
